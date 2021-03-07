@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page d'accueil</title>
+    <link rel="icon" href="style/img/logovr.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet/less" href="style/style.less">
+
+    <!--slick-->
+    <link rel="stylesheet" type="text/css" href="js/pluggin/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/pluggin/slick-1.8.1/slick/slick-theme.css" />
+
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/pluggin/slick-1.8.1/slick/slick.min.js"></script>
+
+    <!--js-->
+    <script src="js/script.js"></script>
+
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav>
+        <div id="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+		  </label>
+
+            <label class="logo">
+				<img src="style/img/logovr.png" alt="logo" tittle="logo de l'entreprise" >
+		  </label>
+            <ul class="header-navigation">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a class="active" href="formation.html">FORMATIONS</a></li>
+                <li><a href="index.html#divertissement">JEUX</a></li>
+                <li><a href="tarif.html">TARIFS</a></li>
+                <li><a href="formulaire.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--end-navbar-->
+
+    <!--PLUGGIN SLICK-->
+
+    <div class="slick-slider">
+        <div class="slider"><img src="style/img/casque-vr.jpg" alt="casque VR" tittle="Oculus Quest 2"></div>
+        <div class="slider"><img src="style/img/casque-vrn.jpg" alt="casque VR" tittle="Oculus Rift S"></div>
+        <div class="slider"><img src="style/img/raw.jpg" alt="casque VR" tittle="Oculus Quest"></div>
+    </div>
+    <!--end-PLUGGIN SLICK-->
+
+
+    <!--jeu video-->
+    <div id="divertissement">
+        <div class="container diver">
+            <div class="row">
+
+                <div class="Description">
+                    <h2>Un large choix de jeux d'enquête et Escape games à faire seul ou en équipe</h2>
+                    <p>INVESTIGATIONS ! Y voir clair dans differente affaires</p>
+                    <p>Observations, hypothèse, logique, déductions...Les indices mènent aux preuves. c'est votre défi.</p>
+
+                </div>
+
+                <div class="game col-md-4">
+                    <img src="style/img/jeu.jpg" alt="Jeu The prison" tittle="Jeu The prison">
+                    <h3>The prison</h3>
+                    <p>Votre police lutte depuis des années contre des organisations criminelles et ne fait aucun prisonnier. La dernière opération majeure a fait tomber plusieurs têtes corrompues de la police. Mais de la gloire ...</p>
+                    <a href="#" class="btnGame">Découvrir</a>
+                </div>
+                <div class="game col-md-4">
+                    <img src="style/img/PYRAMID.png" alt="Jeu the lost Pyramid" title="Jeu the lost Pyramid">
+                    <h3>Escape the lost Pyramid</h3>
+                    <p>Février 1928. Une expédition dirigée par Sir Beldon Frye disparaît quelque part dans la péninsule du Sinaï. Quatre explorateurs et une douzaine de porteurs étaient à la recherche de la pyramide perdue de Nebka…</p>
+                    <a href="#" class="btnGame">Découvrir</a>
+                </div>
+                <div class="game col-md-4">
+                    <img src="style/img/DAGGER.png" alt="Jeu Prince of percia" title="Jeu Prince of percia">
+                    <h3>Dagger of time</h3>
+                    <p>Prince of Persia: The Dagger Of Time est un jeu d’évasion en réalité virtuelle situé dans le monde de Prince of Persia qui vous permet de contrôler le temps. Vous pourrez vivre quelque chose d’impossible dans la vraie vie...</p>
+                    <a href="#" class="btnGame">Découvrir</a>
+                </div>
+
+
+
+                <div class="bouton-for btnContainer">
+                    <a href="#" class="btnjeu">Voir Plus</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--end-jeu video-->
+
+    <!--message-VR-->
+    <div id="message">
+        <div class="container virtuel">
+            <strong>La Réalité Virtuelle</strong>
+
+            <p>Un casque VR est un appareil à poser sur la tête, permettant de vivre les expériences vidéoludiques 3D en réalité virtuelle. Cette dernière est une technologie qui plonge l'utilisateur au cœur même de l'expérience.</p>
+            <p>La réalité virtuelle (ou VR pour Virtual Reality) est une technologie simulant la présence physique d'un participant dans l'univers virtuel généré par un outil informatique, une console de jeu ou un smartphone</p>
+            <p>La réalité virtuelle vous permet de vivre une expérience d'immersion et de mener une activité senso-motrice dans un monde artificiel.</p>
+            </p>
+        </div>
+    </div>
+    <!--end-message VR-->
+
+    <!--Formation-->
+    <div id="formation">
+        <div class="container forma">
+            <div class="row">
+                <div class="presentation">
+                    <h2>Des Formations à portée de main</h2>
+                    <p>Pourquoi parcourir des kilomètres pour vous former ?</p>
+                    <p>Virtual House se deplace dans les locaux de votre entreprise pour vous former</p>
+
+                </div>
+
+                <div class="for col-md-4">
+                    <span class="row"><img src="style/img/FORMATION INCENDIE.png" alt="formation incendie" tittle="formation incendie"></span>
+                    <h3>Formation incendie</h3>
+                    <p>La formation incendie vous permet d'interragir en temp reel avec un incendie et d'utiliser les bon gestes pour diffenrente scène </p>
+                    <a href="#" class="btnForma">Découvrir</a>
+                </div>
+                <div class="for col-md-4">
+                    <span class="row"><img src="style/img/FORMATION.png" alt="formation premier secours" tittle="formation premier secours"></span>
+                    <h3>Formation premier secour</h3>
+                    <p>Se sensibiliser au geste de premier secours, quel sont les geste à adopter l'équipe virtual house vous formes </p>
+                    <a href="#" class="btnForma">Découvrir</a>
+                </div>
+                <div class="for col-md-4">
+                    <span class="row"><img src="style/img/FORMATION SUR MESURE.png" alt="Formation VR" tittle="formation general"></span>
+                    <h3>Conseil et accompagnement</h3>
+                    <p>Vous souhaitez former vos collaborateur dans un domaine en particulier. Nous vous accompagnons dans votre projet et mettant en place une formation sur mesure correspondant à vos attentent </p>
+                    <a href="#" class="btnForma">Découvrir</a>
+                </div>
+
+                <div class="bouton-for btnContainer">
+                    <a href="formation.html" class="btnfor">Voir Plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-formation-->
+
+    <!--diaporama-->
+    <div id="VR">
+        <div class="diaporama">
+
+            <div class="diapo">
+                <p>Virtual house vous acceuil dans ses locaux du Lundi au Samedi</p>
+            </div>
+        </div>
+    </div>
+    <!--end-diaporama-->
+
+    <!--inscription-->
+    <main>
+        <div class="container-fluid main">
+            <form action="">
+                <div class="news">
+                    <h6>Inscrivez-vous </h6>
+                    <p>à la News letter</p>
+                </div>
+                <div class="bton">
+                    <a href="#" class="btnMain">S'inscrire<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+        </div>
+        </form>
+        </div>
+    </main>
+
+    <!--End-inscription-->
+
+    <!--footer-->
+    <footer class="site-footer">
+        <div class="container-fluid site">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Entreprise</h6>
+
+                    <p class="text-justify"><i>L'équipe de Virtual House fort de ses compétences vous attend dans le monde de la réalité virtuel.
+                        Une équipe experimentée pour des formations adaptés et sur mesure.
+                          Mais encore des jeux animés à jouer seul ou en équipe.
+                          </i> </p>
+
+                    <ul class="social-icons " id="social">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Menu</h6>
+                    <ul class="footer-links">
+                        <li><a href="horaire.html">Horaires</a></li>
+                        <li><a href="formulaire.html#map">Votre agences</a></li>
+                        <li><a href="#">Nous rejoindre</a></li>
+                        <li><a href="#">Catalogue</a></li>
+                        <li><a href="#">Les nouveautés</a></li>
+                        <li><a href="mention-legale.html">Mention légal</a></li>
+                        <li><a href="plan-site.html">Plan du site</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Virtual House</h6>
+                    <ul class="footer-links">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">51 rue des Orangers</a></li>
+                        <li><a href="#" id="cp">28100 DREUX</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">+33 2 37 42 98 27</a></li>
+                        <li><i class="fa fa-mobile" aria-hidden="true"></i><a href="#">+33 6 15 25 34 45</a></li>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">contact@virtualhouse.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright-text">Copyright © 2021 Tout droit réservé</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End-footer-->
+</body>
+
+</html>

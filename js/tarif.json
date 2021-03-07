@@ -1,0 +1,6 @@
+    [{ "Categories": "CATEGORIES", "Age": "AGES", "Prix": "PRIX" },
+        { "Categories": "Enfant", "Age": "10 ans à 17 ans", "Prix": "11€99" },
+        { "Categories": "Adulte", "Age": "18 ans à 55 ans", "Prix": "24€99" },
+        { "Categories": "Adulte", "Age": "55 ans et +", "Prix": "19€99" },
+        { "Categories": "TARIF SPECIAUX", "Age": "POUR TOUS", "Prix": "GROUPE, ANNIVERSAIRE, ..." }
+    ]
